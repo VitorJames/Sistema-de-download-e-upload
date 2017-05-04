@@ -1,0 +1,245 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300);
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+}
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+  font-weight: 300;
+}
+body ::-webkit-input-placeholder {
+  /* WebKit browsers */
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+  font-weight: 300;
+}
+body :-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+  opacity: 1;
+  font-weight: 300;
+}
+body ::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+  opacity: 1;
+  font-weight: 300;
+}
+body :-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+  font-weight: 300;
+}
+
+.lg{
+  width: 360px;
+  height: 160px;
+}
+
+.wrapper.form-success .container h1 {
+  -webkit-transform: translateY(85px);
+      -ms-transform: translateY(85px);
+          transform: translateY(85px);
+}
+
+.bclass {
+  margin-top: 60px;
+  -moz-box-shadow:inset 0px 1px 0px 0px #9bebe4;
+  -webkit-box-shadow:inset 0px 1px 0px 0px #9bebe4;
+  box-shadow:inset 0px 1px 0px 0px #9bebe4;
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #2dcc6c), color-stop(1, #2cb890) );
+  background:-moz-linear-gradient( center top, #2dcc6c 5%, #2cb890 100% );
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#2dcc6c', endColorstr='#2cb890');
+  background-color:#2dcc6c;
+  -webkit-border-top-left-radius:0px;
+  -moz-border-radius-topleft:0px;
+  border-top-left-radius:0px;
+  -webkit-border-top-right-radius:0px;
+  -moz-border-radius-topright:0px;
+  border-top-right-radius:0px;
+  -webkit-border-bottom-right-radius:0px;
+  -moz-border-radius-bottomright:0px;
+  border-bottom-right-radius:0px;
+  -webkit-border-bottom-left-radius:0px;
+  -moz-border-radius-bottomleft:0px;
+  border-bottom-left-radius:0px;
+  text-indent:0;
+  border:1px solid #1bc2a6;
+  display:inline-block;
+  color:#ffffff;
+  font-family:'Opens sans', sans-serif;
+  font-size:20px;
+  font-style:normal;
+  height:40px;
+  line-height:40px;
+  width:100px;
+  text-decoration:none;
+  text-align:center;
+  text-shadow:1px 1px 0px #248d91;
+}
+.bclass:hover {
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #2cb890), color-stop(1, #2dcc6c) );
+  background:-moz-linear-gradient( center top, #2cb890 5%, #2dcc6c 100% );
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#2cb890', endColorstr='#2dcc6c');
+  background-color:#2cb890;
+}.bclass:active {
+  position:relative;
+  top:1px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px 0;
+  height: 350px;
+  text-align: center;
+}
+.container h1 {
+  font-size: 60px;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  -webkit-transition-timing-function: ease-in-put;
+          transition-timing-function: ease-in-put;
+  font-weight: 200;
+}
+form {
+  padding: 5px;
+  position: relative;
+  z-index: 2;
+}
+form input {
+  appearance: none;
+  outline: 0;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 250px;
+  border-radius: 3px;
+  padding: 8px ;
+  margin: 0 auto 10px auto;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  -webkit-transition-duration: 0.25s;
+          transition-duration: 0.25s;
+  font-weight: 300;
+}
+form input:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+form input:focus {
+  background-color: white;
+  width: 300px;
+  color: #53e3a6;
+}
+.login-button {
+  appearance: none;
+  outline: 0;
+  background-color: white;
+  border: 0;
+  padding: 10px 15px;
+  color: #53e3b6;
+  border-radius: 3px;
+  width: 250px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.cad-button {
+  appearance: none;
+  outline: 0;
+  background-color: red;
+  border: 0;
+  padding: 10px 15px;
+  color: white;
+  border-radius: 3px;
+  margin-top: 25px;
+  width: 200px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+/*CSS da página tutorial.html*/
+
+#img1{
+  width: 100%;
+}
+.img1{
+  width: 100%;
+  max-width: 1400px;
+  min-width: 1200px;
+  max-height: 800px
+}
+#img2{
+  width: 100%;
+  background: #c8d2ca;
+}
+#img3{
+  width: 100%;
+  background: #35cf38;
+}
+#img4{
+  width: 100%;
+  background:  #c8d2ca;
+}
+#imgs56{
+  width: 100%;
+  background:  #4d4d4d;
+}
+#img7{
+  width: 100%;
+  background: #5d71d5;
+}
+#img8{
+  width: 100%;
+  background: #ececec;
+}
+#img9{
+  width: 100%;
+  background: #5d71d5;
+}
+.con-button {
+  appearance: none;
+  outline: 0;
+  background-color: green;
+  border: 0;
+  padding: 10px 15px;
+  color: white;
+  border-radius: 3px;
+  width: 200px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  font-size: 18px;
+}
+/*css da página cadstro.html*/
+.sel-cad {
+  appearance: none;
+  outline: 0;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 250px;
+  border-radius: 3px;
+  padding: 8px;
+  margin: 0 auto 10px auto;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  -webkit-transition-duration: 0.25s;
+          transition-duration: 0.25s;
+  font-weight: 300;
+}
+.sel-cad:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.sel-cad:focus {
+  background-color: white;
+  width: 300px;
+  color: #53e3a6;
